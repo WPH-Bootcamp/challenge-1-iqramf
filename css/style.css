@@ -19,9 +19,13 @@ header {
 .header-logo {
   margin: auto;
 }
+.food-icon {
+  width: 100px;
+  height: 100px;
+}
 .header-content {
   text-align: center;
-  margin: 0 20px;
+  margin: auto;
 }
 ul {
   padding-inline-start: 0px;
