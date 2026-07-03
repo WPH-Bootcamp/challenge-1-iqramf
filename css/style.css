@@ -13,22 +13,29 @@ header {
   background-color: #bc0000;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
 }
 .header-logo {
-  margin: auto;
+  margin: auto 20px;
 }
 .food-icon {
   width: 100px;
   height: 100px;
 }
 .header-content {
-  text-align: center;
-  margin: auto;
+  text-align: left;
+  margin: auto 0;
+}
+.nav-container {
+  background-color: #bc0000;
+  text-align: left;
+  border-top: #333 solid 1px;
+  border-bottom: #333 solid 1px;
 }
 ul {
-  padding-inline-start: 0px;
+  padding-inline-start: 20px;
+  margin: 10px 0;
 }
 li {
   list-style-type: none;
@@ -78,6 +85,20 @@ article {
 article:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+artile div h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+article div p {
+  text-align: justify;
+}
+p.price {
+  font-size: 30px;
+  font-weight: bold;
+  color: #bc0000;
+  text-align: center;
 }
 footer {
   background-color: #bc0000;
